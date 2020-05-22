@@ -3,8 +3,8 @@
 Company `RecursivX, S.A.P.I. de C.V.` has the following problem:
 
 ```python
-
 def sum(numbers):
+    """function to sum numbers of list"""
 	sum_1 = 0 
 	for number in numbers:
 	    sum_1 += x
@@ -32,7 +32,8 @@ Define a recursive function that solves this particular problem:
 """Recursive function"""
 
 def sum(numbers):
-
+    """recursive function to sum numbers of list"""
+    
     # print("input numbers: ")
 
     # when not numbers
@@ -46,7 +47,7 @@ def sum(numbers):
 
 ``` 
 
-```
+```python
 """driver code"""
 
 print(mysum([10,[21,32,43],54,[63,[72,81],90]]) == 466)
