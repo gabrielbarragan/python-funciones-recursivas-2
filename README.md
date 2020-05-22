@@ -4,7 +4,7 @@ Company `RecursivX, S.A.P.I. de C.V.` has the following problem:
 
 ```python
 def sum(numbers):
-    """function to sum numbers of list"""
+    """function to add numbers of list"""
 	sum_1 = 0 
 	for number in numbers:
 	    sum_1 += x
@@ -32,7 +32,7 @@ Define a recursive function that solves this particular problem:
 """Recursive function"""
 
 def sum(numbers):
-    """recursive function to sum numbers of list"""
+    """recursive function to add numbers of list"""
     
     # print("input numbers: ")
 
