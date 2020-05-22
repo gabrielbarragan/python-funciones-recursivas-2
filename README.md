@@ -15,9 +15,9 @@ print(sum([10,[21,32,43],54,[63,[72,81],90]]))
 ```
 ```
 Traceback (most recent call last):
-  File "max.py", line 109, in <module>
+  File "add.py", line 109, in <module>
     print(sum([10,[21,32,43],54,[63,[72,81],90]])) 
-  File "max.py", line 105, in sum
+  File "add.py", line 105, in sum
     sum_1 += number
 TypeError: unsupported operand type(s) for +=: 'int' and 'list'
 ```
